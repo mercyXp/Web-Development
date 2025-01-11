@@ -3,7 +3,7 @@
 
 - For this project, you will build a tribute page for a subject of your choosing, fictional or real.
 
---- 
+===
 In my case, I wrote about *Mother Theresa*.
 ---
 `Happy Coding`
