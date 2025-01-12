@@ -1,0 +1,168 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Roboto;
+    color: white;
+}
+header {
+    height: 100px;
+    width: 100%;
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: fixed;
+}  
+#navbar{
+   height: auto;
+   width: auto;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    padding: 2px;
+    height: auto;
+    width: auto;
+}
+#profile-link {
+    color: white;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+/*ABOUT ME-SECTION*/
+#welcome-section{
+    background-color: azure;
+    color: black;
+    height: 600px;
+    font-family: "Dancing Script", cursive;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    0% {
+        background-color: azure;
+    }
+    25% {
+        background-color: aliceblue;
+    }
+    50% {
+        background-color: beige;
+    }
+    75% {
+        background-color: blanchedalmond;
+    }
+    100% {
+        background-color: burlywood;
+    }
+}
+i{
+    color: deeppink;
+}
+
+/*PROJECTS SECTION*/
+#projects {
+    background-color: #171721;
+    
+}
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1400px;
+    padding: 20px 10px;
+    margin: 0 auto;
+    gap: 16px;
+}
+    .gallery img {
+        width: 100%;
+        height: 300px;
+        max-width: 350px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+.project-tile {
+    text-align: center;
+    margin: 10px;
+}
+    .gallery::after {
+        content: "";
+        width: 350px;
+    }
+a{
+    color: white;
+}
+.see-more-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+#more{
+    color: black;
+}
+
+.arrow {
+    margin-left: 10px;
+}
+
+
+/*FOOTER*/
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+#lets-work {
+    background-color: azure;
+    color: black;
+    height: 600px;
+    width: 100%;
+}
+.social-links{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.p3 {
+    font-family: Baskervville;
+}
+
+@media screen and (max-width: 480px){
+  header, footer{
+      background-color: white;
+      color: black;
+  }
+  #profile-link {
+      color: black;
+  }
+}
