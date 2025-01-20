@@ -1,0 +1,132 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  h1, h2, p {
+    margin: 0;
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    background: #f8f9fa;
+  }
+  
+  .nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .socials img {
+    width: 20px;
+    margin-left: 10px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    background: #007BFF;
+    color: white;
+    padding: 50px 20px;
+  }
+  
+  .hero button {
+    margin-top: 20px;
+  }
+  
+  /* About Section */
+  .about {
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+  }
+  
+  .about img {
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  /* Categories Section */
+  .categories .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .category {
+    background: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Portfolio Section */
+  .portfolio .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .portfolio-item {
+    background: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  /* Newsletter Section */
+  .newsletter {
+    text-align: center;
+    background: #f1f1f1;
+    padding: 40px 20px;
+  }
+  
+  .newsletter form {
+    margin: 20px 0;
+  }
+  
+  .newsletter input {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    background: #343a40;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
