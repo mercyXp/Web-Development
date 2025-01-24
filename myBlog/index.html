@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Blog</title>
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <!-- Header -->
@@ -14,8 +15,8 @@
       <nav class="nav">
         <a href="#">Home</a>
         <a href="#">About Me</a>
-        <a href="#">Categories</a>
-        <a href="#">Portfolio</a>
+        <a href="#categories">Categories</a>
+        <a href="#portfolio">Portfolio</a>
         <a href="#">Advertise</a>
         <a href="#">Contact</a>
       </nav>
@@ -49,25 +50,43 @@
   </section>
 
   <!-- Categories Section -->
-  <section class="categories">
+  <section id="categories" class="categories">
     <div class="container">
       <h2>Explore by Category</h2>
       <div class="grid">
-        <div class="category">Travel</div>
-        <div class="category">Tech</div>
-        <div class="category">Lifestyle</div>
-        <div class="category">Food</div>
+        <div class="category">
+          <img src="\myBlog\img\travel.jpg" alt="Travel">
+          <p>Travel</p>
+        </div>
+        <div class="category">
+          <img src="\myBlog\img\tech.jpg" alt="Tech">
+          <p>Technology</p>
+        </div>
+        <div class="category">
+          <img src="\myBlog\img\lifestyle.jpg" alt="Lifestyle">
+          <p>Lifestyle</p>
+        </div>
+        <div class="category">
+          <img src="\myBlog\img\food.jpg" alt="Food">
+          <p>Food</p>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Portfolio Section -->
-  <section class="portfolio">
+  <section id="portfolio" class="portfolio">
     <div class="container">
       <h2>My Portfolio</h2>
       <div class="grid">
-        <div class="portfolio-item">Project 1</div>
-        <div class="portfolio-item">Project 2</div>
+        <div class="portfolio-item">
+          <img src="project1.jpg" alt="Project 1">
+          <p>Project 1</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="project2.jpg" alt="Project 2">
+          <p>Project 2</p>
+        </div>
       </div>
       <button>View More</button>
     </div>
