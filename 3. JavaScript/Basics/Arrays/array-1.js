@@ -66,10 +66,10 @@ console.log(newArrayy);
 const myArrayA = ["A", "B", "C"];
 const myArrayB = ["D", "E", "F"];
 
-const newAr = myArrayB.concat(myArrayA);//combines
-console.log(newArr);
+const newArray1 = myArrayB.concat(myArrayA);//combines
+console.log(newArray1);
 
-const newAr = [...myArrayA, ...myArrayB]
+const newArray2 = [...myArrayA, ...myArrayB]
 
 //multi - dimensional arrays
 

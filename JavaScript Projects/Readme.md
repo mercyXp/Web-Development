@@ -1,0 +1,1 @@
+Projects I created using JavaScript only and arranged in their order of difficulty.
