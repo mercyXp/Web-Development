@@ -70,6 +70,7 @@ const newArray1 = myArrayB.concat(myArrayA);//combines
 console.log(newArray1);
 
 const newArray2 = [...myArrayA, ...myArrayB]
+console.log(newArray2);
 
 //multi - dimensional arrays
 
