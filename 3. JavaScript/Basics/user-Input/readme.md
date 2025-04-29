@@ -1,0 +1,1 @@
+Learn how to accept user input in JavaScript in 2 ways.
