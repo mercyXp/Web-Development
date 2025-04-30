@@ -1,4 +1,4 @@
-# 🔤 How to work with strings with JavaScript
+# 🔤 How to work with strings in JavaScript
 JavaScript provides many powerful features for creating, inspecting, modifying, and manipulating strings. This guide covers the essential techniques for working with strings effectively.
 
 ---
