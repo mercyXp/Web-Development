@@ -1,6 +1,7 @@
 //object = A collection of related properties and/or methods
 //         Can represent real world objects(people, products, places)
-//         object = {key : value, function()}
+//         object = {key : value, 
+//                   function()}
 
 const person = {
     firstName: 'Spongebob',
