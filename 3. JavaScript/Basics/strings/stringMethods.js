@@ -35,3 +35,10 @@ console.log(username.includes("r"));
 let phoneNumber = "+260-774-027-187";
 phoneNumber = phoneNumber.replaceAll("-", " ");
 console.log(phoneNumber);
+
+// padding at the begining and end
+phoneNumber = phoneNumber.padStart(20, "0");
+console.log(phoneNumber);
+phoneNumber = phoneNumber.padEnd(30, " 1");
+console.log(phoneNumber);
+
