@@ -10,3 +10,6 @@ class Products{
 }
 const product1 = new Products("Shirt", 19.99);
 product1.displayProduct();
+
+var x ='5', y='10';
+console.log(+x+y);
