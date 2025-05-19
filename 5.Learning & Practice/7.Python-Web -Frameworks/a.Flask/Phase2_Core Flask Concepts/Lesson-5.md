@@ -1,6 +1,5 @@
 
 ---
-
 ## 🟢 Passing Data to HTML Templates using Jinja2
 
 ---
