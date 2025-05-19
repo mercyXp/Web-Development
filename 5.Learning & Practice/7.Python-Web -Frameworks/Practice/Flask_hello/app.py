@@ -33,7 +33,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return render_template('home.html')
+    name = "Mercy"
+    return render_template('home.html', user=name)
 
 @app.route('/about')
 def about():
