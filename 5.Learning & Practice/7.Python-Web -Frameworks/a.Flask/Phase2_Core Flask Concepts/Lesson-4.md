@@ -1,6 +1,5 @@
 
 ---
-
 ## 🟢 Using HTML Templates with Flask (Jinja2)
 
 ---
