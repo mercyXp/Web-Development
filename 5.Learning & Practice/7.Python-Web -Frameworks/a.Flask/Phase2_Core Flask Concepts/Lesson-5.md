@@ -139,7 +139,6 @@ In `skills.html`:
 * Use `render_template()` to send variables to your HTML.
 * Use `{{ variable }}` in your HTML to show dynamic content.
 * Use `{% for %}` to loop through lists.
-
 ---
 
 
