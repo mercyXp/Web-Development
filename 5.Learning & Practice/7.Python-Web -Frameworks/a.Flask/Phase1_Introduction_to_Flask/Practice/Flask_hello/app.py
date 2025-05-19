@@ -2,9 +2,24 @@ from flask import Flask
 
 app = Flask(__name__)
 
+# Homepage route
 @app.route('/')
 def home():
-    return "Hello, World! This is my first Flask app."
+    return "🏠 Welcome to the Homepage!"
+
+# About page route
+@app.route('/about')
+def about():
+    return "ℹ️ This is the About Page."
+
+# Contact page route
+@app.route('/contact')
+def contact():
+    return "📞 Contact us at: hello@example.com"
+# Services page route
+@app.route('/services')
+def service():
+    return "We offer web development and consulting!"
 
 if __name__ == '__main__':
     app.run(debug=True)
