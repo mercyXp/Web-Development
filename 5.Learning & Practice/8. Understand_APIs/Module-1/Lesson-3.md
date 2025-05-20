@@ -147,6 +147,141 @@ Each type of API plays a specific role depending on **who needs the data**, **ho
 
 ---
 
+Excellent point — beyond the **access-level types** (public, partner, internal, composite), APIs also come in different **architectural styles**: how they are structured, how they work, and how clients interact with them.
+
+Here’s a clear and concise **addition to Lesson 3**, covering **REST, SOAP, and GraphQL** in Markdown format.
+
+---
+
+## 🧱 Bonus: Types of API Architectures
+
+APIs aren’t just defined by who can access them — they’re also defined by **how they’re built and how they work**.
+
+The three most common API styles are:
+
+1. **REST**
+2. **SOAP**
+3. **GraphQL**
+
+Let’s break them down.
+
+---
+
+### 1️⃣ REST (Representational State Transfer)
+
+✅ **Most common and widely used** API style
+🌐 **Used by:** Twitter, GitHub, Spotify, Stripe, etc.
+
+### 📌 Key Features:
+
+* Uses **HTTP methods**: GET, POST, PUT, DELETE
+* Works with **URLs** (endpoints) and **JSON** data
+* Stateless: each request is independent
+
+### 🧪 Example:
+
+```http
+GET https://api.example.com/users/1
+```
+
+### ✔️ Pros:
+
+* Easy to understand and use
+* Works with any platform (web, mobile, etc.)
+* Scalable and fast
+
+### ❌ Cons:
+
+* Can return more data than needed
+* Multiple requests for related data
+
+---
+
+### 2️⃣ SOAP (Simple Object Access Protocol)
+
+📦 **Older** API style, often used in **enterprise systems** (banking, insurance, etc.)
+
+### 📌 Key Features:
+
+* Uses **XML** instead of JSON
+* Built on **strict contracts** (WSDL)
+* More complex and rigid than REST
+
+### 🧪 Example:
+
+```xml
+<soap:Envelope>
+  <soap:Body>
+    <GetUserDetails>...</GetUserDetails>
+  </soap:Body>
+</soap:Envelope>
+```
+
+### ✔️ Pros:
+
+* Strong typing and security (WS-Security)
+* Great for mission-critical apps
+
+### ❌ Cons:
+
+* Harder to use and set up
+* Slower due to XML overhead
+
+---
+
+### 3️⃣ GraphQL (by Facebook)
+
+⚡ A **modern alternative** to REST
+🌐 **Used by:** Facebook, Shopify, GitHub, and more
+
+### 📌 Key Features:
+
+* Clients can **ask for exactly what they need**
+* Uses a **single endpoint**
+* Returns structured responses
+
+### 🧪 Example Query:
+
+```graphql
+{
+  user(id: 1) {
+    name
+    email
+  }
+}
+```
+
+### ✔️ Pros:
+
+* More efficient: no over-fetching or under-fetching
+* Ideal for modern apps and mobile devices
+
+### ❌ Cons:
+
+* Steeper learning curve
+* Requires setting up a GraphQL server
+
+---
+
+## 🧠 Summary Table
+
+| API Type    | Format       | Pros              | Cons           | Use Cases          |
+| ----------- | ------------ | ----------------- | -------------- | ------------------ |
+| **REST**    | JSON / HTTP  | Simple, flexible  | Over-fetching  | Web & mobile APIs  |
+| **SOAP**    | XML / HTTP   | Secure, reliable  | Verbose, rigid | Enterprise systems |
+| **GraphQL** | Custom query | Efficient, modern | Complex setup  | Modern apps, SPAs  |
+
+---
+
+## 📝 Final Takeaway
+
+* **Use REST** for most general-purpose APIs — it’s the most popular and easy to work with.
+* **Use SOAP** if you’re dealing with legacy enterprise systems or need strong contracts.
+* **Use GraphQL** if you want high flexibility and optimized responses in modern apps.
+
+---
+
+
 ## 📚 Optional Reading
 
 * [What is an API? – IBM Developer](https://developer.ibm.com/articles/what-is-an-api/)
