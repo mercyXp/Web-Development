@@ -147,10 +147,7 @@ Each type of API plays a specific role depending on **who needs the data**, **ho
 
 ---
 
-Excellent point — beyond the **access-level types** (public, partner, internal, composite), APIs also come in different **architectural styles**: how they are structured, how they work, and how clients interact with them.
-
-Here’s a clear and concise **addition to Lesson 3**, covering **REST, SOAP, and GraphQL** in Markdown format.
-
+Beyond the **access-level types** (public, partner, internal, composite), APIs also come in different **architectural styles**: how they are structured, how they work, and how clients interact with them.
 ---
 
 ## 🧱 Bonus: Types of API Architectures
