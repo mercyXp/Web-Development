@@ -1,8 +1,7 @@
 # Recipe page
 
-```
 This challenge will help you focus on writing semantic HTML. Ensure you think through what HTML elements are most appropriate for each piece of content.
-```
+
 
 ## 📝 Brief
 Your challenge is to build out this recipe page and get it looking as close to the design as possible.
