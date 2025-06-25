@@ -1,0 +1,1 @@
+This is a collection of all the frontend projects I worked on to master frontend development.
