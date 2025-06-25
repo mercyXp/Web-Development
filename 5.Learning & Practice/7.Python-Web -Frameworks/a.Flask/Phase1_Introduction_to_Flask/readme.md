@@ -1,1 +1,0 @@
-Goal: Understand what Flask is and how it works.
