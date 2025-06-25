@@ -26,5 +26,5 @@ Build a simple webpage that displays cat photos, links to resources, and uses ba
 
 ---
 
-## 🐾 Example Output
+
 
